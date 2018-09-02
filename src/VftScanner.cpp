@@ -1,4 +1,7 @@
 #include "VftScanner.h"
+// Special thanks to Brandon (Chirality) for the original
+// concept and code for this scanner. This is a slightly
+// altered version.
 
 void* VftScanner::Find(void* Vftable, size_t Size) {
 	void* Return = NULL;
